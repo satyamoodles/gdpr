@@ -1,0 +1,27 @@
+
+@media only screen and (max-width: 1024px){
+    }
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles-responsive.php oxides_edge_design_responsive_styles function */
+.edgtf-section.edgtf-parallax-section-holder { height: auto !important;min-height: 400px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles-responsive.php oxides_edge_h2_responsive_styles function */
+h2 { font-size: 36px;line-height: 39px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles-responsive.php oxides_edge_h4_responsive_styles function */
+h4 { font-size: 18px;}
+
+}
+
+@media only screen and (max-width: 480px){
+	/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles-responsive.php oxides_edge_design_responsive_styles function */
+.edgtf-section.edgtf-parallax-section-holder { height: auto !important;min-height: 400px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles-responsive.php oxides_edge_h2_responsive_styles2 function */
+h2 { font-size: 34px;line-height: 38px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles-responsive.php oxides_edge_h4_responsive_styles2 function */
+h4 { font-size: 18px;}
+
+}

@@ -1,0 +1,80 @@
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles.php oxides_edge_design_styles function */
+.edgtf-preload-background { background-image: url(http://localhost/gdpr/wp-content/themes/oxides/assets/img/preload_pattern.png) !important;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles.php oxides_edge_design_styles function */
+.edgtf-boxed .edgtf-wrapper { background-attachment: fixed;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles.php oxides_edge_content_styles function */
+.edgtf-content .edgtf-content-inner > .edgtf-container > .edgtf-container-inner { padding-top: 80px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/assets/custom-styles/general-custom-styles.php oxides_edge_not_found_page_styles function */
+.error404 .edgtf-wrapper { background-image: url(http://oxides.edge-themes.com/wp-content/uploads/2015/10/error_image.jpg);background-position: center 0px;background-repeat: no-repeat;background-size: cover;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/contactform7/custom-styles/contact-form.php oxides_edge_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea { height: 183px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/contactform7/custom-styles/contact-form.php oxides_edge_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz { font-weight: 300;padding-top: 11px;padding-bottom: 11px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/contactform7/custom-styles/contact-form.php oxides_edge_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea { height: 273px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/contactform7/custom-styles/contact-form.php oxides_edge_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_2 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-quiz { font-weight: 300;padding-top: 11px;padding-bottom: 11px;}
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+                    .edgtf-main-menu.edgtf-default-nav > ul > li > a span.plus{
+                display: none;
+            }
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        
+                
+                    .edgtf-vertical-align-containers .edgtf-position-left {
+                left: 66px;
+            }
+        /* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/search/custom-styles/search.php oxides_edge_search_opener_spacing function */
+.edgtf-search-opener { margin-left: 18px;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/sidearea/custom-styles/sidearea.php oxides_edge_side_area_slide_from_right_type_style function */
+.edgtf-side-menu-slide-from-right .edgtf-side-menu { right: -30%;width: 30%;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/sidearea/custom-styles/sidearea.php oxides_edge_side_area_slide_from_right_type_style function */
+.edgtf-side-menu-slide-from-right .edgtf-wrapper .edgtf-cover { background-color: #ffffff;}
+
+/* generated in /opt/lampp/htdocs/gdpr/wp-content/themes/oxides/framework/modules/sidearea/custom-styles/sidearea.php oxides_edge_side_area_alignment function */
+.edgtf-side-menu-slide-from-right .edgtf-side-menu, .edgtf-side-menu-slide-with-content .edgtf-side-menu, .edgtf-side-area-uncovered-from-content .edgtf-side-menu { text-align: center;}
+

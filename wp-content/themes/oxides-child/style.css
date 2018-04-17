@@ -1,0 +1,374 @@
+/*
+Theme Name: Oxides Child
+Theme URI: http://oxides.edge-themes.com
+Description: A child theme of Oxides Theme
+Author: Edge Themes
+Author URI: http://themeforest.net/user/edge-themes
+Version: 1.0.0
+Template: oxides
+*/
+@import url("../oxides/style.css");
+.edgtf-logo-wrapper a {
+    height: 47px !important;
+}
+.edgtf-main-menu>ul>li>a span.item_inner{
+    padding: 0 14px;
+}
+.edgtf-content{
+    margin-top:0 !important;
+}
+.edgtf-iws {
+    display: block;
+    margin-top: 10%; 
+}
+
+.pricingTable{
+    padding-bottom: 100px;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.pricingTable:before{
+    content: "";
+    width: 80%;
+    height: 10px;
+    background: #727cb6;
+    margin: 0 auto;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+}
+.pricingTable .title{
+    display: inline-block;
+    width: 80%;
+    margin: 0 0 40px 0;
+    background: #727cb6;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+.pricingTable .title:before,
+.pricingTable .title:after{
+    content: "";
+    border-right: 10px solid #4a59ab;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.pricingTable .title:after{
+    border-right: none;
+    border-left: 10px solid #4a59ab;
+    left: auto;
+    right: -10px;
+}
+.pricingTable .title span{
+    display: block;
+    padding: 25px 0;
+}
+.pricingTable .title span:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    bottom: -21px;
+    background: linear-gradient(-45deg, transparent 75%, #727cb6 75%) 0 50%,linear-gradient( 45deg, transparent 75%, #727cb6 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 16px;
+}
+.pricingTable .pricing-content{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pricingTable .pricing-content li{
+    font-size: 16px;
+    font-weight: bold;
+    color: #727cb6;
+    line-height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.pricingTable .pricing-content li:last-child{ margin-bottom: 0; }
+.pricingTable .pricing-content li:before{
+    content: "";
+    width: 30px;
+    height: 100%;
+    background: #727cb6;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+.pricingTable .pricing-content li:after{
+    content: "";
+    border-left: 15px solid #727cb6;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.pricingTable .pricing-content i{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.pricingTable .pricing-content i:after{
+    content: "";
+    border-right: 10px solid #4a59ab;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: -10px;
+}
+.pricingTable .price-value{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #727cb6;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+}
+.pricingTable .pricingTable-signup{
+    display: block;
+    padding: 21px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+}
+.pricingTable .pricingTable-signup:before,
+.pricingTable .pricingTable-signup:after{
+    content: "";
+    width: 53%;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transform: rotate(20deg);
+}
+.pricingTable .pricingTable-signup:after{
+    left: auto;
+    right: 0;
+    transform: rotate(-20deg);
+}
+.pricingTable .amount{
+    display: block;
+    padding: 15px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+.pricingTable .amount span{
+    display: inline;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    top: -8px;
+}
+.pricingTable.green:before,
+.pricingTable.green .title,
+.pricingTable.green .price-value,
+.pricingTable.green .pricing-content li:before{
+    background: #1abc9c;
+}
+.pricingTable.green .title span:after{
+    background: linear-gradient(-45deg, transparent 75%, #1abc9c 75%) 0 50%,linear-gradient( 45deg, transparent 75%, #1abc9c 75%) 0 50%;
+    background-size: 16px;
+}
+.pricingTable.green .pricing-content li{ color: #1abc9c; }
+.pricingTable.green .pricing-content li:after{ border-left: 15px solid #1abc9c; }
+.pricingTable.green .title:before,
+.pricingTable.green .pricing-content i:after{ border-right: 10px solid #11927a; }
+.pricingTable.green .title:after{ border-left: 10px solid #11927a; }
+.pricingTable.purple:before,
+.pricingTable.purple .title,
+.pricingTable.purple .price-value,
+.pricingTable.purple .pricing-content li:before{
+    background: #cf4d78;
+}
+.pricingTable.purple .title span:after{
+    background: linear-gradient(-45deg, transparent 75%, #cf4d78 75%) 0 50%,linear-gradient( 45deg, transparent 75%, #cf4d78 75%) 0 50%;
+    background-size: 16px;
+}
+.pricingTable.purple .pricing-content li{ color: #cf4d78; }
+.pricingTable.purple .pricing-content li:after{ border-left: 15px solid #cf4d78; }
+.pricingTable.purple .title:before,
+.pricingTable.purple .pricing-content i:after{ border-right: 10px solid #ae365e; }
+.pricingTable.purple .title:after{ border-left: 10px solid #ae365e; }
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 100px; }
+}
+.top_header {
+    background-color: #153f8a;
+    color: #fff;
+    text-align: right;
+    padding: 6px 18px 4px 0px;
+}
+.switcher .option {
+    position: absolute !important;
+}
+.switcher {
+    display: inline-block;
+}
+.current-menu-item span.item_inner {
+    background-color: #153f8a !important;
+    color: #fff;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 13px;
+}
+.edgtf-main-menu span.item_inner:hover{
+    background-color: #153f8a !important;
+    color: #fff;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+span.contact_info {
+    float: left;
+    margin-left: 22px;
+    border-right: 1px solid #616e86;
+    padding-right: 23px;
+}
+.contact_info i {
+    border: 2px solid #fff;
+    margin-right: 7px;
+    padding: 4px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+.text_seperator_heading span.vc_sep_line {
+    border-color: #163f89 !IMPORTANT;
+}
+
+.text_seperator_heading h4 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #163f89;
+    margin-bottom:14px;
+}
+.text_seperator_heading_2 span.vc_sep_line {
+    border-color: #ffffff !IMPORTANT;
+}
+.text_seperator_heading_2 h4 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom:14px;
+}
+.more_post_btn {
+    background-color: #eaeaea !important;
+    font-size: 13px;
+    border-radius: 8px;
+    box-shadow: 1px 5px 1px 2px #272525;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.more_post_btn span {
+    color: #101010 !important;
+}
+.post_btn_row {
+    text-align: center;
+    padding-top: 5%;
+}
+.gdpr_blogs {
+    box-shadow: 0 0 1px 1px #CCB;
+    padding: 8px;
+    margin: 18px 0;
+}
+.blog_img {
+    margin-bottom: 19px;
+}
+h3.title_gdpr_blog {
+    font-size: 18px;
+}
+h4.date_blog {
+    font-size: 15px;
+}
+.blog_data {
+    font-size: 15px;
+}
+.read_more_blog {
+    text-align: center;
+    margin: 11px 0;
+}
+.read_more_blog a {
+    background-color: #e4dfdf;
+    color: #000;
+    padding: 5px 9px;
+    box-shadow: 0px 3px 4px 3px #333;
+    border-radius: 5px;
+}
+span.page-numbers.current {
+    border: 1px solid red;
+    padding: 10px 14px;
+    margin: 4px;
+    line-height: 1;
+    color: #ffffff;
+    float: left;
+    border-radius: 2px;
+    background-color: red;
+}
+a.page-numbers {
+    border: 1px solid #E4E4E4;
+    padding: 10px 14px;
+    margin: 4px;
+    line-height: 1;
+    color: #ffffff;
+    float: left;
+    border-radius: 2px;
+    background-color: #163f89;
+}
+ul.pagination {
+    margin: 26px 0;
+}
+.page-header.mk_insight {
+    background-color: #277bbc;
+    padding: 15px 0;
+    margin-bottom: 34px;
+}
+.mk_insight h3 {
+    color: #fff;
+    margin-left: 7%;
+}
+aside.edgtf-sidebar .widget>h6{
+
+    background-color: #163f89;
+}
+.wpcf7 .form-control {
+    border: 1px solid #333;
+    color: #000 !important;
+}
+.wpcf7 label {
+    display: block;
+    width: 100%;
+}
+.address_gdpr i {
+    font-size: 26px;
+    margin-right: 12px;
+    color: #163f89;
+}
+.address_gdpr {
+    font-size: 17px;
+    color: #23282d;
+}
+.demo .col-md-4.col-sm-6 {
+    height: 540px;
+}
