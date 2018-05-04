@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'gdpr');
+define('DB_NAME', 'data_protection');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'RofYp|$38}NDK,M_rHe$BC,[5;C,qhW5SMUGaD5=*)Gf+h >7k;:j|~x&b:Z4w9R');
-define('SECURE_AUTH_KEY',  'Hi3!}|exfoq7wI=Qk BS} }Y[DcUS!jx:DFQzlQRL&U|(,rm%GN9=H%+v-Av~#2U');
-define('LOGGED_IN_KEY',    't.D_y76;`/]82J^a5=-OePnQ9aHi7z7vN<{^-2TgPRr(nC+yk@ceL;v}>seq#.bv');
-define('NONCE_KEY',        'EnY+^z9Zau{sB{$`l.y>UYY<k<X/S5xq0V6Qy.0mvMZe8LFx-w]wN<h@Q[W+u~Vk');
-define('AUTH_SALT',        'owRv{h.r,}0Q@/X(sfL7b:XH[^I>5^PA0(nu-+O.EOex2BeB#Cf|@JdDHXOECT(z');
-define('SECURE_AUTH_SALT', '#r(s*e+)&[teJ5#N7qpS%8S=)v^+[AuJ$?{g4%OjXnq;P:dHa-FwtxdO1C-xC1#-');
-define('LOGGED_IN_SALT',   '[1kPW^468H8Wu|,Siq]G=g7.9@wmCxH[dP+%/a7=GJIfJIX9?:V7/.okM~j[<Fz=');
-define('NONCE_SALT',       'W.sDAI1iy{7Gyf;@O l^iwqG2^fc_>{.|dCSIDQ,qf*:j>2q56a&Ef7(5Sj3 K31');
+define('AUTH_KEY',         '{91$nSpg1v[#ZUH,>tY3c*lTT#5*aLNQ^1NU}{76l?&p:EU2+7%sNnpy|qu5]nGx');
+define('SECURE_AUTH_KEY',  '4Pp9rNt0YO_|)9,BCYTM+L>[-B}ps(lV3Z=+zUt.uG1hddu?u=G`q_p!;NYB7:OX');
+define('LOGGED_IN_KEY',    '^LwivhWcSbe(yPX-L~B2H{/rO:N,boxBBf_Q=nj@,M//cp@`?DErkV+gE98|G:X*');
+define('NONCE_KEY',        '8KF_EP_~B.MO(3fy~7?bv>@F+q&W88)D5<XbXB*om(LkB$$^?mX92irnWT@x-)FL');
+define('AUTH_SALT',        '|#F.5zsDwJ%a,Lna+);]JjH)4,u}}D <zRf>zI]sP[.[6:z6nW<2b60I{mrpA(x<');
+define('SECURE_AUTH_SALT', 'lr+0|N5:%}SJt/YkGSo1w`N*lz[h0LnE<q*r.IA54|bX+`kA-eaoV~M4H;8<:L.E');
+define('LOGGED_IN_SALT',   'hi_fgbQ+^qyZOH4os?>9kuBc@ME^oAm3ly_`ufU$EFnd?Rx3:b]8i2:><d8$ad^i');
+define('NONCE_SALT',       'bdO;&fNie;^_JZnh}kES6Hwo9&z, Y,Xr6jXO9WZnhf-=,yr^CO.|fYSAP*>B]c~');
 
 /**#@-*/
 
@@ -87,6 +87,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-define('FS_METHOD', 'direct');
-define( 'WPMS_ON', true );
-define( 'WPMS_SMTP_PASS', 'Sharmaji@0414' );
+
+define('FS_METHOD','direct');

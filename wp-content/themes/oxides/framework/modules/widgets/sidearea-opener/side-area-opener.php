@@ -41,12 +41,12 @@ class EdgeOxidesSideAreaOpener extends EdgeOxidesWidget {
     	}
     	
     	?>
-        <!-- <a class="edgtf-side-menu-button-opener" <?php oxides_edge_inline_style($sidearea_icon_styles) ?> href="javascript:void(0)">
+        <a class="edgtf-side-menu-button-opener" <?php oxides_edge_inline_style($sidearea_icon_styles) ?> href="javascript:void(0)">
          	<span class="lines-holder">
 	         	<span class="first line" <?php oxides_edge_inline_style($sidearea_icon_styles) ?>></span>
 	            <span class="second line" <?php oxides_edge_inline_style($sidearea_icon_styles) ?>></span>
 	            <span class="third line" <?php oxides_edge_inline_style($sidearea_icon_styles) ?>></span>
         	</span>
-        </a> -->
+        </a>
     <?php }
 }

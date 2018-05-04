@@ -9,20 +9,11 @@
      */
     ?>
 	<?php do_action('oxides_edge_header_meta'); ?>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div class="top_header">
-    <span class="contact_info">
-            <i class="fa fa-phone"></i> 0124 436 8395
-    </span>
-    <span class="contact_info">
-            <i class="fa fa-envelope"></i> info@oodlesstechnologies.com
-    </span>
-<?php echo do_shortcode( '[language_translate]' ); ?>
-</div>
 <?php oxides_edge_get_side_area(); ?>
 
 <div class="edgtf-wrapper">

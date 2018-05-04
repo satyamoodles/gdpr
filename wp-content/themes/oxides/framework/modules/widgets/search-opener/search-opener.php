@@ -102,7 +102,7 @@ class EdgeOxidesSearchOpener extends EdgeOxidesWidget {
 
         ?>
 
-        <!-- <a <?php echo oxides_edge_get_inline_attr($instance['search_icon_hover_color'], 'data-hover-color'); ?>
+        <a <?php echo oxides_edge_get_inline_attr($instance['search_icon_hover_color'], 'data-hover-color'); ?>
             <?php if ( $close_icon_on_same_position ) {
                 echo oxides_edge_get_inline_attr('yes', 'data-icon-close-same-position');
             } ?>
@@ -118,7 +118,7 @@ class EdgeOxidesSearchOpener extends EdgeOxidesWidget {
                     <?php } ?>
                 </div>
             </div>
-        </a> -->
+        </a>
 		<?php if($fullscreen_search_overlay) { ?>
 			<div class="edgtf-fullscreen-search-overlay"></div>
 		<?php } ?>
